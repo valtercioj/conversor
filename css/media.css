@@ -21,10 +21,11 @@
     }
     #result{
       font-size:1.5rem;
-    }
+        top:20px;
+      }
   }
   
-  @media (max-width: 450px){
+  @media (max-width: 300px){
     .conversor-container{
       flex-direction:column;
       width:90%;
@@ -35,6 +36,6 @@
     }
     #result{
       font-size:1.7rem;
-      bottom:70px;
+      top:20px;
     }
   }
